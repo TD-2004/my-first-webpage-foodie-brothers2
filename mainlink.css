@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+   
+   
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+    background-image: url("https://images.unsplash.com/photo-1608447714925-599deeb5a682?fm=jpg&w=3000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3");
+    background-repeat: no-repeat;
+    cursor:pointer;   
+    padding:2px;
+}
+.card-list .card-item{
+    color:#fff;
+    width:370px;
+    border-radius: 40px;
+    display:flex;
+    flex-direction:column;
+    background: rgba(121, 17, 165, 0.2);
+    border:1px solid rgba(255,255,255,0.5);
+    align-items: center;
+    justify-content: center;;
+    padding:40px;
+}
+.card-list .card-item .user-image{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    border:3px solid #9e8a8a;
+    padding:4px;
+}
+.card-list .card-item .message-button{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    padding:10px 35px;
+    border-radius: 50px;
+    background:white;
+    color:rgb(47, 180, 180);
+    font-weight:500;
+    cursor:pointer;
+    border:1px solid white;
+}
+.card-list .card-item .message-button:hover{
+    background: white;
+    border:1px solid #fff;
+}
+.hii{
+    display: flex;
+    flex-direction: row;
+}
